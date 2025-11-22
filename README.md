@@ -113,7 +113,7 @@ By using GreenFi, you're helping to fund:
 
 ---
 
-Made with ❤️ by [Your Name/Team] | [Live Demo](https://greenfi.vercel.app)
+ [Live Demo](https://greenfi.vercel.app)
 ```
 
 This README provides:
