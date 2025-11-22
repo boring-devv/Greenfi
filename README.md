@@ -1,47 +1,43 @@
 
 ```markdown
-# 🌱 GreenFi - Blockchain-Powered Climate Finance
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-000000.svg)](https://nextjs.org/)
-[![Hedera Hashgraph](https://img.shields.io/badge/Powered%20by-Hedera-000000.svg)](https://hedera.com/)
+ 🌱 GreenFi - Blockchain-Powered Climate Finance
 
 GreenFi is a decentralized finance (DeFi) platform that bridges cryptocurrency staking with real-world environmental impact. Stake tokens, earn rewards, and fund verified climate projects—all tracked transparently on the Hedera network.
 
-## 🚀 Features
+ Features
 
-- **Staking & Rewards**: Earn passive income while supporting environmental causes
-- **Impact NFTs**: Collect verifiable proof of your climate contributions
-- **Transparent Tracking**: All transactions and impacts are recorded on-chain
-- **Admin Dashboard**: Manage projects, users, and staking pools
-- **Hedera Integration**: Built on Hedera for sustainability and efficiency
+Staking & Rewards: Earn passive income while supporting environmental causes
+Impact NFTs: Collect verifiable proof of your climate contributions
+Transparent Tracking: All transactions and impacts are recorded on-chain
+Admin Dashboard: Manage projects, users, and staking pools
+Hedera Integration: Built on Hedera for sustainability and efficiency
 
-## 🛠 Tech Stack
+Tech Stack
 
-### Frontend
-- **Framework**: Next.js 14 with TypeScript
-- **UI**: Tailwind CSS + shadcn/ui
-- **State Management**: React Query
-- **Web3**: ethers.js, wagmi, viem
-- **Authentication**: Firebase Auth
+ Frontend
+Framework: Next.js 14 with TypeScript
+UI: Tailwind CSS + shadcn/ui
+State Management: React Query
+Web3: ethers.js, wagmi, viem
+Authentication: Firebase Auth
 
-### Backend
-- **Runtime**: Node.js + Express
-- **Database**: Firebase Firestore
-- **Blockchain**: Hedera Hashgraph (EVM)
-- **Smart Contracts**: Solidity (Hedera EVM)
-- **API**: REST + WebSockets
+ Backend
+Runtime: Node.js + Express
+Database: Firebase Firestore
+Blockchain: Hedera Hashgraph (EVM)
+Smart Contracts: Solidity (Hedera EVM)
+API: REST + WebSockets
 
-### Infrastructure
-- **Frontend Hosting**: Vercel
-- **Backend Hosting**: Vercel Serverless
-- **CI/CD**: GitHub Actions
-- **Monitoring**: Sentry
+ Infrastructure
+Frontend Hosting: Vercel
+Backend Hosting: Vercel Serverless
+CI/CD: GitHub Actions
+Monitoring: Sentry
 
-## 📦 Smart Contracts
+ Smart Contracts
 
-- **GreenFiCore**: Main staking and rewards contract
-- **MockToken**: ERC-20 token for staking and rewards
+GreenFiCore: Main staking and rewards contract
+MockToken: ERC-20 token for staking and rewards
 
 ```solidity
 // Example contract interaction
@@ -50,19 +46,19 @@ const stake = async (amount: string) => {
 };
 ```
 
-## 🚀 Getting Started
+ Getting Started
 
-### Prerequisites
+ Prerequisites
 - Node.js 18+
 - npm or yarn
 - Hedera Testnet Account
 - Firebase Project
 
-### Local Development
+Local Development
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/greenfi.git
+   git clone (https://github.com/boring-devv/Greenfi)
    cd greenfi
    ```
 
