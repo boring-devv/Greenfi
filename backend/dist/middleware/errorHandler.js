@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.errorHandler = errorHandler;
+function errorHandler(err, _req, res, _next) {
+    const statusCode = err.status || err.statusCode || 500;
+    const message = err.message || 'Internal server error';
+    if (process.env.NODE_ENV !== 'production') {
+        // eslint-disable-next-line no-console
+        console.error(err);
+    }
+    res.status(statusCode).json({
+        message,
+    });
+}
